@@ -1,0 +1,34 @@
+* {
+  box-sizing:border-box;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type=text] {
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+form textarea {
+  width: 100%;
+  height: 5rem;
+}
+
+@media all and (min-width: 800px) {
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0 0;
+  }
+
+  form {
+    width: 400px;
+  }
+}

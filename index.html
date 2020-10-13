@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Form</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div class="form-group">
+    <form action="https://formspree.io/f/mjvpyyna"
+  method="POST">
+      <label for="name">Name:</label>
+      <input id="name" type="text" name="name" placeholder="John Doe">
+
+      <label for="email">Email:</label>
+      <input id="email" type="text" name="_replyto" placeholder="email@example.com">
+      
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" placeholder="What do you want to say?"></textarea>
+        
+      <!-- your other form fields go here -->
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</body>
+</html>
+
